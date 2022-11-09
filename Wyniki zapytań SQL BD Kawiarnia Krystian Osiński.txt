@@ -1,0 +1,727 @@
+-- Usunięcie tabel
+ Command(s) completed successfully.
+ 
+ --Utworzenie tabel i ich wypełnienie
+ ================================================================================================================================
+ 1) BARIŚCI
+ 
+ ID	Imie	Nazwisko	Nr_pracownika	Pesel	Nr_telefonu	E_mail	Urodziny	Aktywny
+1	Krystian	Osiński	1  	99070611111	504960083	Kryosi@st.amu.edu.pl	1999-07-06	1
+2	Agata	Cholewińska	5  	99070622222	504961184	Agacho@stmed.edu.pl	1999-02-02	1
+3	Karolina	Szykowna	101	99070633333	504962285	Szykokaro@Starcost.com	1990-12-21	1
+4	Karolina	Socha	6  	99070644444	504963386	szoszyna@Starcost.com	1998-03-26	0
+5	Adrian	Nowakowski	102	99070655555	504964487	Boskynowakowsky@gmail.com	1983-06-01	1
+6	Maciej	Świerblewski	2  	99070666666	504965588	swierblasmac@starcost.com	2001-03-17	1
+7	Maciej	Nowak	3  	99070677777	504966689	Nowmacnok@Sstarcost.com	1974-11-09	1
+8	Magdalena	Szczepańska	4  	99070688888	504967790	Szczepanska@st.amu.edu.pl	1999-07-06	1
+9	Anna	Kujawa-Bartkowiak	7  	99070699999	504968891	kujanbar@o2.pl	1984-04-13	1
+10	Ola	Szlapka	8  	99070610222	504969991	Olszlap01@interia.pl	1999-09-14	1
+11	Weronika	Nowak	9  	99070610333	504961001	NowakowaWeronika0234@gmail.com	1990-03-30	0
+12	Radek	Dlango	10 	99070610444	504961002	djlango@gmai.com	1999-01-30	0
+13	Borys	Czajka	103	99070610555	504961003	czajowskyy@interia.pl	1994-07-06	0
+14	Krystian	Draus	11 	99070610666	504961004	drausdraus@02.pl	1999-06-03	1
+================================================================================================================================
+2) Klienci
+ID	Imie	Nazwisko	Nr_karty	Nr_telefonu	E_mail	Urodziny
+1	N.N.	N.N	0    	NULL	NULL	NULL
+2	Lidia	Wójcik	1    	601415195	wojcik@gmail.com	NULL
+3	Michal	Torba	2    	503366636	TOrba@gmai.com	1999-06-07
+4	Adam	Grzywczak	3    	123123123	Grzywczak@gmail.com	1999-06-08
+5	Adam	Janyska	4    	234234234	Janyska@gmail.com	1999-06-09
+6	Adrian	Waszak	5    	345345345	waszak@gmail.com	1999-06-10
+7	Adrian	Gawryszewski	6    	456456456	Gawryszewski@gmail.com	1999-06-11
+8	Aga	Toton	7    	567567567	toton@gmail.com	1999-06-12
+9	Agata	Filutowska	8    	NULL	NULL	NULL
+10	Agnieszka	Maleszyk-kajzera	9    	678678678	Kajzerka@gmail.com	1999-07-07
+11	Aleksandra	Jankowiak	10   	789789789	NULL	1999-07-08
+12	Alicja	Janas	11   	890890890	Janas@gmail.com	1999-03-03
+13	Alicja	Szymanowicz	12   	909090990	szymanowicz@gmail.com	NULL
+14	Anastasia	Nikoleva	13   	NULL	nikolewa@gmail.com	2001-01-01
+15	Amanda	Nowak	14   	NULL	nowak@gmail.com	2004-12-12
+16	Andrzej	Faryński	15   	NULL	NULL	NULL
+17	Angelika	Ławniczak	16   	111222333	lawniczak@gmail.com	2010-03-03
+18	Anna	Wuwer	17   	111333444	weuwer@gmail.com	NULL
+19	Ania	Osiński	18   	NULL	NULL	NULL
+20	Anna	Rusel-Wasiak	19   	111444555	ruselwasiak@gmail.com	1980-12-12
+21	Artur	Osiński	20   	111555666	NULL	1979-12-12
+22	Asia	Bemowicz	21   	111666777	bemowicz@gmail.com	1999-09-09
+23	Barbara	Urbaniak	23   	111777888	urbaniak@gmail.com	2002-04-05
+24	Bartek	Kryczka	24   	111888999	kryczka@gmail.com	2000-01-01
+25	Bartosz	Łeszyk	25   	222111222	leszyk@gmail.com	1899-11-12
+26	Bartosz	Pawlak	26   	222222333	NULL	NULL
+27	Bartłomiej	Cupta	27   	NULL	NULL	2002-02-02
+28	Beata	Kozłowksa	28   	222333444	kozlowka@gmail.com	NULL
+29	Beata	Prusak	29   	NULL	NULL	2001-06-05
+30	Daniel	Medic	30   	222333555	danielmedic@gmail.com	NULL
+31	Daniel	Wardowski	22   	NULL	Wardowski@gmail.com	NULL
+32	Danka	Ciborowska	31   	222333666	ciborowskadanka@gmail.com	NULL
+33	Daria	Wróbel	32   	222333777	wrobel@gmail.com	2004-04-04
+34	Dariusz	Pomian	33   	222333888	pomianowiskyy@gmail.com	NULL
+35	Dawid	Nowak	34   	NULL	dawidnowak1@gmail.com	NULL
+36	David	Lesso	35   	NULL	lessodavidlesso@gmail.com	1980-09-03
+37	Dominik	Borowczyk	36   	222333999	Borowczyk@gmail.com	NULL
+38	Dominika	Leśniewska	37   	222444111	lesniewska@gmail.com	1973-08-14
+39	Edyta	Nawrotek-Wrych	38   	222444222	NULL	1958-04-05
+40	Ewa	Migdalska	39   	NULL	migdalska@gmail.com	1968-04-30
+41	Ewelina	Komorowska	40   	222444333	Komorowskaewilna@gmail.com	1999-12-29
+42	Filip	Ostrowski	41   	222444444	ostrowskyyfilip@gmail.com	1999-09-09
+43	Filip	Nowaczyk	42   	222444555	nowaczykfilip@gmail.com	1999-10-10
+44	Gabriel	Najdyhor	43   	501501501	najdyhor@gmail.com	NULL
+45	Grażyna	Zając	44   	502502502	zajackrolikzajac@gmail.com	1966-06-06
+46	Grzegorz	Wrzuszczak	45   	503503503	Grzeswrzusz@gmail.com	1999-07-16
+47	Hania	Wacławek	46   	506506506	haniawacla@gmail.com	NULL
+48	Hania	Pyzik	47   	NULL	NULL	NULL
+49	Hubert	Raczyk	48   	507507507	NULL	2004-07-21
+50	Izabela	Alberti	49   	508508508	alberti@gmail.com	2007-12-28
+51	Iza	Nowicka	50   	NULL	nowicka@gmail.com	NULL
+52	Jagoda	Pawelec	51   	509509509	pawelec@gmail.com	1978-10-13
+53	Jakub	Wiśniewski	52   	NULL	wisnieskikuba@gmail.com	1993-09-11
+54	Kuba	Pera	53   	987987987	perajakub@gmail.com	1995-09-12
+55	Jacob	Kochanek	54   	987987777	kochanek@gmail.com	NULL
+56	Jan	Wojciechowski	55   	876876876	wojciechowskijan@gmail.com	2000-12-27
+57	Joanna	Przybył	56   	765765765	przybyljoanna@gmail.com	2007-03-16
+58	Joanna	Felisiak	57   	654654654	felciajoanna@gmail.com	2003-12-13
+59	Jonasz	Janecki	58   	NULL	janeckijonasz234@gmail.com	NULL
+60	Judyta	Rykaszewska	59   	NULL	rykaszewskajudyta@gmail.com	1987-08-14
+61	Julia	Tracz	60   	NULL	NULL	NULL
+62	Julia	Zagrodzka	61   	543543543	zagrodka@gmail.com	1998-10-23
+63	Justyna	Wejman	62   	432432432	wejmanowska@gmail.com	1993-03-29
+64	Jędzej	Chwojnowksi	63   	321321321	chwojnowksi@gmail.com	1999-04-08
+65	Kacper	Kowalewski	64   	NULL	kowalkacpery@gmail.com	NULL
+66	Kaja	Pobłocka	65   	NULL	Poblockakajka@gmail.com	2001-01-26
+67	Kamil	Prądziński	66   	765567765	NULL	NULL
+68	Kamil	Szahun	67   	654456654	szachunhun@gmail.com	NULL
+69	Kamila	Kuciel	68   	432234432	NULL	NULL
+70	Karina	Czarska	69   	NULL	NULL	NULL
+71	Karolina	Paizert	70   	321123321	paizert@gmail.com	2012-11-03
+72	Karolina	Konieczna	71   	191919191	koniecznakarola@gmail.com	1965-04-05
+73	Karolina	Klusek	72   	192192192	klusk@gmail.com	1996-07-14
+74	Kasper	Honkisz	73   	193193193	honkisz@gmail.com	1984-09-18
+75	Katarzyna	Grzelak	74   	NULL	grzelka@gmail.com	1979-04-08
+76	Kateryna	Dyka	75   	NULL	dyykkaa@gmail.com	NULL
+77	Kinga	Waselczyk	76   	194194194	waselczyk@gmail.com	1999-09-09
+78	Klaudia	Soloch	77   	195195195	soloch@gmail.com	2005-05-05
+79	Łukasz	Scharam	78   	197197197	scharam@gmail.com	NULL
+80	Zuzia	Donat	79   	NULL	donayt@gmail.com	NULL
+81	Zuzanna	Fornalik	80   	NULL	NULL	2002-02-02
+82	Zenobiusz	Draus	81   	NULL	drauszenon@gmail.com	1961-03-18
+83	Wojciech	Maćkowiak	82   	19990919 	wojcmackowiak@gmail.com	1999-12-13
+84	Wiktoria	Figas	83   	NULL	figaswik@gmail.com	NULL
+85	Aurelia	Wiktoria	84   	NULL	aurwikt193@gmail.com	NULL
+86	Wiktoria	Dyszy	85   	NULL	NULL	NULL
+87	Wiktor	Maćkowiak	86   	385638910	wiktormackowiak@gmail.com	1996-11-13
+88	Weronika	Cholewa	87   	NULL	cholewaweronika@gmail.com	NULL
+89	Weronika	Gorzelanczyk	88   	504000504	NULL	1999-07-26
+90	Weronika	Wałkowska	89   	501703505	walkowska22@gmail.com	NULL
+91	Urszula	Palacz	90   	123987456	urszupala1234321@gmail.com	1956-04-27
+92	Sylwia	Roszyk	91   	NULL	roszyksylwia@gmail.com	1974-12-29
+93	Simona	Sędera	92   	1        	NULL	2005-06-19
+94	Nadia	Ciborowska	93   	1        	NULL	1999-08-04
+ =================================================================================================================================
+ 3)Menu
+ ID	Nazwa	ID_typ_menu	Wartosc_sprzedazy	Koszt_wytworzenia	Dostępny
+1	Espresso	1	10,9	3,45	1
+2	Espresso macchiato	1	10,9	4	1
+3	Espresso Con Panna	1	10,9	4,1	0
+4	Latte	1	13,9	7	1
+5	Cappuccino	1	13,9	6,4	1
+6	Americano	1	12	4	1
+7	Filter coffee	1	9,5	3	1
+8	Flat White	1	13,9	8	1
+9	Latte macchiato	1	13,9	6,9	1
+10	Caramel macchiato	1	15,9	8,9	1
+11	Vanilla Latte	1	15,9	8,5	1
+12	Mocha	1	16,9	9	1
+13	White mocha	1	16,9	9,1	1
+14	Clasic hot chocolate	1	12,5	4,9	1
+15	White hot chocolate	1	12,5	5	1
+16	Cold brew	1	11,9	4,6	1
+17	Cold brew latte	1	12,9	5,2	1
+18	Nitro cold brew	1	13,9	5,5	1
+19	Woda	1	0	0,2	1
+20	Mleko	1	5,5	1	1
+21	Spienione mleko	1	5,5	1,2	1
+22	Truskawkowe acai	1	18,95	9,82	0
+23	Berry hibiscus	1	17,95	8,5	1
+24	Dragon drink	1	19,95	12,35	0
+25	Earl Grey	1	11,9	3,2	1
+26	Matcha tea latte	1	14,5	8	1
+27	Royal English Breakfast tea	1	11,9	3,4	1
+28	Chai tea	1	11,9	3,5	1
+29	Espresso frappe	1	18,9	11,25	0
+30	Caramel frappe	1	18,9	10,25	0
+31	Bubble frappe	1	20,9	13,5	1
+32	Tropical mango frappe	1	14,5	7,5	1
+33	Java chip frappe	1	18,95	11,85	1
+34	Vanilla frappe	1	16,95	9,95	1
+35	Kokosowe latte	1	13,9	9,9	0
+36	Croissant Parma	2	13,9	7	1
+37	Croissant Mozzarella	2	13,9	8	1
+38	Bajgiel Kozi Ser	2	14,9	9	1
+39	Bajgiel z jajkiem i boczkiem	2	14,9	9,5	1
+40	Jogurt z malinami	2	8,95	4,25	1
+41	Jogurt z mango	2	8,95	4,5	1
+42	Cynamonka	2	8,95	3,95	1
+43	Gofr	2	4,95	1,5	0
+44	Ciastko owsiane z Nutellą	2	6	3,5	1
+45	Ciastko czekoladowe	2	7	4	1
+46	Sernik z truskawkami	2	13,9	6,9	1
+47	Szarlotka	2	13,9	7,1	1
+48	Espresso Brownie	2	8,95	5,85	0
+49	Muffin jagodowy	2	8,95	6,25	0
+50	Muffin czekoladowy	2	8,95	5,75	1
+51	Sernik Nowojorski	2	16,9	10,5	1
+52	Ciasto marchewkowe	2	16,9	11,5	1
+53	Naleśnik	2	4	1,5	0
+54	Croissant	2	4,95	1,55	1
+55	Shoarma Vege	2	14,9	7,95	1
+56	Croissant Italiano	2	13,9	6,95	0
+57	Espresso Roast	3	31	21	1
+58	Blond Roast	3	31	19	1
+59	Sumatra	3	35	24,45	1
+60	Guatemala	3	33,5	21,55	1
+61	Pike Place	3	19,9	14,05	0
+62	Verona	3	21	16,1	0
+63	Colombia	3	35	23,45	1
+64	Ethiopia	3	40	28,95	1
+65	Kenya	3	37,5	29,95	1
+66	Decaf Kenya	3	20	8,5	0
+67	Decaf Trojan	3	22	11,95	0
+=================================================================================================================================
+4) Ty_menu
+ID	Nazwa_typu
+1	Napój
+2	Jedzenie
+3	Kawa_paczkowana
+===========================================================================================================================
+5)
+ID	Data_sprzedazy	ID_baristy	ID_klienta
+1	2020-05-14 08:03:45.000	1	3
+2	2020-05-14 08:08:21.000	1	1
+3	2020-05-14 08:09:07.000	5	1
+4	2020-05-14 08:10:07.000	5	1
+5	2020-05-14 08:14:58.000	5	1
+6	2020-05-14 08:17:34.000	1	6
+7	2020-05-14 08:20:03.000	1	1
+8	2020-05-14 08:25:32.000	1	1
+9	2020-05-14 08:27:09.000	1	1
+10	2020-05-14 08:28:26.000	1	1
+11	2020-05-14 08:30:55.000	5	1
+12	2020-05-14 08:34:59.000	5	10
+13	2020-05-14 08:40:25.000	5	1
+14	2020-05-14 08:43:46.000	5	1
+15	2020-05-14 08:45:00.000	1	1
+16	2020-05-14 08:46:51.000	5	1
+17	2020-05-14 08:47:20.000	1	1
+18	2020-05-14 08:48:01.000	5	1
+19	2020-05-14 08:49:29.000	5	1
+20	2020-05-14 08:51:21.000	1	1
+21	2020-05-14 08:51:24.000	1	1
+22	2020-05-14 08:54:59.000	1	27
+23	2020-05-14 08:56:46.000	5	1
+24	2020-05-14 08:57:21.000	1	1
+25	2020-05-14 08:59:02.000	1	1
+26	2020-05-14 08:59:45.000	5	1
+27	2020-05-14 09:00:25.000	1	39
+28	2020-05-14 09:02:25.000	1	1
+29	2020-05-14 09:03:28.000	5	53
+30	2020-05-14 09:03:25.000	5	1
+31	2020-05-14 09:03:47.000	1	1
+32	2020-05-14 09:06:07.000	1	1
+33	2020-05-14 09:07:27.000	1	1
+34	2020-05-14 09:08:57.000	5	1
+35	2020-05-14 09:10:35.000	1	1
+36	2020-05-14 09:11:00.000	5	1
+37	2020-05-14 09:11:59.000	5	1
+38	2020-05-14 09:12:13.000	5	1
+39	2020-05-14 09:16:56.000	1	1
+40	2020-05-14 09:18:42.000	1	1
+41	2020-05-14 09:24:18.000	5	1
+42	2020-05-14 09:30:23.000	1	1
+43	2020-05-14 09:33:11.000	1	1
+44	2020-05-14 09:36:07.000	5	13
+45	2020-05-14 09:38:53.000	1	1
+46	2020-05-14 09:40:37.000	1	1
+47	2020-05-14 09:43:37.000	5	1
+48	2020-05-14 09:45:22.000	5	1
+49	2020-05-14 09:48:12.000	1	1
+50	2020-05-14 09:49:01.000	5	1
+51	2020-05-14 09:51:11.000	1	1
+52	2020-05-14 09:54:24.000	5	1
+53	2020-05-14 09:55:01.000	1	1
+54	2020-05-14 09:58:27.000	1	1
+55	2020-05-14 09:59:13.000	5	1
+56	2020-05-14 09:59:19.000	1	4
+57	2020-05-14 10:04:03.000	5	1
+58	2020-05-14 10:05:23.000	1	1
+59	2020-05-14 10:08:13.000	1	1
+60	2020-05-14 10:10:44.000	5	1
+61	2020-05-14 10:11:49.000	1	1
+62	2020-05-14 10:14:13.000	1	1
+63	2020-05-14 10:15:03.000	5	1
+64	2020-05-14 10:16:39.000	5	1
+65	2020-05-14 10:18:18.000	5	1
+66	2020-05-14 10:21:33.000	1	1
+67	2020-05-14 10:23:11.000	1	1
+68	2020-05-14 10:25:31.000	5	1
+69	2020-05-14 10:26:42.000	1	1
+70	2020-05-14 10:26:35.000	1	1
+71	2020-05-14 10:29:53.000	5	1
+72	2020-05-14 10:32:12.000	1	1
+73	2020-05-14 10:34:22.000	1	1
+74	2020-05-14 10:34:22.000	1	1
+75	2020-05-14 10:37:42.000	1	1
+76	2020-05-14 10:37:58.000	5	1
+77	2020-05-14 10:39:36.000	5	1
+78	2020-05-14 10:42:21.000	1	31
+79	2020-05-14 10:44:44.000	1	1
+80	2020-05-14 10:47:55.000	1	1
+81	2020-05-14 10:49:39.000	5	1
+82	2020-05-14 10:55:22.000	5	1
+83	2020-05-14 10:58:11.000	1	1
+84	2020-05-14 11:03:17.000	1	1
+85	2020-05-14 11:07:16.000	1	1
+86	2020-05-14 11:14:54.000	5	1
+87	2020-05-14 11:14:54.000	5	1
+88	2020-05-14 11:18:07.000	1	1
+89	2020-05-14 11:22:16.000	1	54
+90	2020-05-14 11:18:07.000	1	1
+91	2020-05-14 11:25:59.000	5	1
+92	2020-05-14 11:28:13.000	1	1
+93	2020-05-14 11:31:24.000	1	1
+94	2020-05-14 11:33:03.000	5	1
+95	2020-05-14 11:38:33.000	1	1
+96	2020-05-14 11:44:21.000	5	1
+97	2020-05-14 11:46:47.000	5	1
+98	2020-05-14 11:49:32.000	1	1
+99	2020-05-14 11:55:11.000	1	1
+100	2020-05-14 11:58:49.000	1	1
+101	2020-05-14 11:58:45.000	1	1
+102	2020-05-14 12:00:49.000	5	1
+103	2020-05-14 12:02:24.000	1	1
+104	2020-05-14 12:06:44.000	1	1
+105	2020-05-14 12:16:44.000	10	1
+106	2020-05-14 12:18:34.000	10	2
+107	2020-05-14 12:22:24.000	10	7
+108	2020-05-14 12:25:11.000	6	1
+109	2020-05-14 12:29:39.000	6	1
+110	2020-05-14 12:34:33.000	10	1
+111	2020-05-14 12:36:11.000	10	1
+112	2020-05-14 12:39:43.000	10	1
+113	2020-05-14 12:47:14.000	6	1
+114	2020-05-14 12:50:34.000	10	1
+115	2020-05-14 12:50:37.000	10	1
+116	2020-05-14 12:50:59.000	10	1
+117	2020-05-14 12:51:52.000	10	1
+118	2020-05-14 12:55:11.000	6	1
+119	2020-05-14 12:59:34.000	10	1
+120	2020-05-14 13:10:34.000	10	1
+121	2020-05-14 13:14:03.000	10	1
+122	2020-05-14 13:17:16.000	6	66
+123	2020-05-14 13:20:16.000	6	69
+124	2020-05-14 13:24:16.000	10	1
+125	2020-05-14 13:26:16.000	10	1
+126	2020-05-14 13:29:42.000	6	1
+127	2020-05-14 13:33:11.000	10	1
+128	2020-05-14 13:33:31.000	10	1
+129	2020-05-14 13:36:26.000	10	1
+130	2020-05-14 13:40:52.000	6	1
+131	2020-05-14 13:45:52.000	6	1
+132	2020-05-14 13:49:52.000	10	1
+133	2020-05-14 13:51:55.000	10	1
+134	2020-05-14 13:54:53.000	6	1
+135	2020-05-14 13:59:23.000	6	1
+136	2020-05-14 14:03:59.000	6	1
+137	2020-05-14 14:03:59.000	6	1
+138	2020-05-14 14:05:22.000	10	1
+139	2020-05-14 14:08:22.000	10	1
+140	2020-05-14 14:25:12.000	10	33
+141	2020-05-14 14:30:12.000	6	76
+142	2020-05-14 14:30:22.000	10	65
+143	2020-05-14 14:34:23.000	6	1
+144	2020-05-14 14:37:59.000	6	1
+145	2020-05-14 14:39:25.000	6	1
+146	2020-05-14 14:39:25.000	6	1
+147	2020-05-14 14:52:03.000	10	1
+148	2020-05-14 14:54:01.000	10	1
+149	2020-05-14 14:57:02.000	10	1
+150	2020-05-14 14:59:03.000	6	1
+151	2020-05-14 15:03:03.000	10	1
+152	2020-05-14 15:07:13.000	10	1
+153	2020-05-14 15:10:59.000	6	1
+154	2020-05-14 15:15:59.000	6	1
+155	2020-05-14 15:19:19.000	6	1
+156	2020-05-14 15:20:22.000	10	81
+157	2020-05-14 15:24:59.000	10	84
+158	2020-05-14 15:28:01.000	6	1
+159	2020-05-14 15:29:29.000	10	1
+160	2020-05-14 15:33:33.000	6	1
+161	2020-05-14 15:36:33.000	10	1
+162	2020-05-14 15:37:42.000	6	1
+163	2020-05-14 15:40:30.000	6	1
+164	2020-05-14 15:41:30.000	10	1
+165	2020-05-14 15:43:23.000	6	1
+166	2020-05-14 15:45:23.000	10	21
+167	2020-05-14 15:46:57.000	10	23
+168	2020-05-14 15:48:12.000	6	91
+169	2020-05-14 15:48:12.000	10	1
+170	2020-05-14 15:50:01.000	6	1
+171	2020-05-14 15:54:01.000	10	1
+172	2020-05-14 15:55:06.000	6	1
+173	2020-05-14 15:58:15.000	10	1
+174	2020-05-14 15:59:15.000	6	1
+175	2020-05-14 15:59:32.000	10	1
+176	2020-05-14 15:59:58.000	6	1
+====================================================================================================================================================================================================================
+6)Pozycje_rejestru_sprzedazy
+
+ID	ID_rejestru_sprzedazy	ID_menu	Ilość
+1	1	1	1
+2	1	2	3
+3	2	8	1
+4	2	38	1
+5	3	42	1
+6	4	12	1
+7	4	65	1
+8	5	5	1
+9	5	41	1
+10	6	4	2
+11	6	44	1
+12	6	50	1
+13	7	1	1
+14	7	37	1
+15	8	54	1
+16	9	6	2
+17	10	6	2
+18	10	2	1
+19	10	4	2
+20	11	6	2
+21	11	7	1
+22	11	39	1
+23	12	5	2
+24	12	8	3
+25	12	52	1
+26	12	39	1
+27	12	51	1
+28	12	59	1
+29	13	6	2
+30	14	6	1
+31	15	1	1
+32	15	23	1
+33	15	25	1
+34	15	50	2
+35	16	6	3
+36	17	12	1
+37	17	19	1
+38	17	19	1
+39	18	39	1
+40	18	4	1
+41	19	7	2
+42	19	11	1
+43	20	36	1
+44	21	4	2
+45	22	17	1
+46	23	6	2
+47	23	10	1
+48	23	4	1
+49	24	4	4
+50	24	38	2
+51	24	40	1
+52	24	31	1
+53	25	54	1
+54	26	5	1
+55	27	23	1
+56	28	55	1
+57	28	59	1
+58	28	64	1
+59	29	42	1
+60	29	7	2
+61	30	9	1
+62	31	4	1
+63	31	53	3
+64	32	32	1
+65	33	27	1
+66	34	58	1
+67	35	16	1
+68	36	6	1
+69	37	10	1
+70	38	10	1
+71	38	11	1
+72	38	19	1
+73	38	39	1
+74	39	8	1
+75	40	7	1
+76	41	43	2
+77	41	25	1
+78	41	32	1
+79	42	1	1
+80	42	19	1
+81	42	57	1
+82	43	54	3
+83	44	54	1
+84	44	60	1
+85	44	50	1
+86	44	4	1
+87	45	5	1
+88	46	17	1
+89	47	39	1
+90	47	7	1
+91	48	1	2
+92	48	4	1
+93	48	36	1
+94	49	31	1
+95	50	63	1
+96	51	6	1
+97	52	8	1
+98	53	8	2
+99	53	42	2
+100	54	43	1
+101	54	25	1
+102	55	4	1
+103	55	52	2
+104	55	8	1
+105	56	58	3
+106	57	39	1
+107	58	38	1
+108	58	6	1
+109	59	4	2
+110	60	7	1
+111	60	42	1
+112	61	4	1
+113	61	16	3
+114	62	20	1
+115	62	19	2
+116	62	16	1
+117	62	34	1
+118	63	16	4
+119	63	17	1
+120	63	39	1
+121	63	38	1
+122	63	37	1
+123	64	13	1
+124	65	8	2
+125	66	6	1
+126	67	6	1
+127	68	8	1
+128	69	1	1
+129	70	42	2
+130	70	4	1
+131	71	8	1
+132	72	6	1
+133	72	25	1
+134	72	36	3
+135	72	28	1
+136	73	6	1
+137	74	5	2
+138	74	38	1
+139	74	8	1
+140	74	39	1
+141	76	8	2
+142	77	9	1
+143	77	41	2
+144	78	47	1
+145	78	42	1
+146	78	16	2
+147	79	18	1
+148	80	14	1
+149	81	13	2
+150	82	6	1
+151	82	54	4
+152	83	54	1
+153	84	42	1
+154	85	16	2
+155	86	8	1
+156	87	60	1
+157	88	38	2
+158	88	6	3
+159	89	38	2
+160	89	16	3
+161	90	40	1
+162	90	1	1
+163	91	9	1
+164	91	8	1
+165	91	37	1
+166	92	5	2
+167	93	8	1
+168	94	6	1
+169	95	39	1
+170	95	7	1
+171	96	40	2
+172	96	5	2
+173	97	41	1
+174	98	4	1
+175	99	12	1
+176	100	42	1
+177	101	54	1
+178	102	54	1
+179	103	42	1
+180	104	5	1
+181	105	7	1
+182	106	7	1
+183	107	65	2
+184	108	42	1
+185	109	16	1
+186	110	47	5
+187	110	19	4
+188	110	16	1
+189	111	42	1
+190	112	42	1
+191	112	26	1
+192	113	20	1
+193	113	21	1
+194	114	54	1
+195	115	54	1
+196	116	54	1
+197	117	54	1
+198	118	5	2
+199	119	5	1
+200	120	6	1
+201	121	16	1
+202	121	42	1
+203	122	64	1
+204	122	5	1
+205	122	39	1
+206	123	42	1
+207	123	5	1
+208	124	6	3
+209	124	55	1
+210	125	5	1
+211	126	59	1
+212	127	8	1
+213	128	6	1
+214	129	28	1
+215	130	1	3
+216	130	54	1
+217	131	5	3
+218	131	4	3
+219	131	6	3
+220	132	4	2
+221	132	42	3
+222	132	39	3
+223	133	42	4
+224	133	2	1
+225	133	44	3
+226	134	4	3
+227	135	12	1
+228	135	8	2
+229	136	11	1
+230	137	32	2
+231	138	10	1
+232	139	13	1
+233	139	44	1
+234	140	6	4
+235	140	26	3
+236	140	39	5
+237	141	25	2
+238	141	34	2
+239	141	28	2
+240	141	25	2
+241	141	5	1
+242	142	15	1
+243	143	42	1
+244	144	42	1
+245	145	28	1
+246	146	39	1
+247	147	5	1
+248	148	6	1
+249	149	5	1
+250	150	16	2
+251	151	54	1
+252	151	42	1
+253	151	6	1
+254	152	39	1
+255	153	8	1
+256	154	1	2
+257	155	1	1
+258	155	5	1
+259	155	2	2
+260	156	1	1
+261	156	6	1
+262	156	8	2
+263	157	5	1
+264	158	16	2
+265	158	39	1
+266	159	17	4
+267	160	47	1
+268	161	51	1
+269	162	44	3
+270	163	31	1
+271	164	6	2
+272	165	28	2
+273	166	34	1
+274	166	44	1
+275	167	44	2
+276	168	4	2
+277	169	60	2
+278	170	9	2
+279	171	9	1
+280	171	19	1
+281	171	52	3
+282	172	31	1
+283	172	60	2
+284	173	32	1
+285	174	4	1
+286	175	6	1
+
+===========================================================================================================================
+RAPORT 1 - WIDOK - Procent_przychodu_od_stalych_klientow
+% Przychodu od stałych klientów
+21,86
+
+
+RAPORT 2 - WIDOK - Sredni_rachunek
+Średni_rachunek
+30,48
+
+RAPORT 3 - WIDOK - Zysk
+Zysk
+2670,95
+
+RAPORT 4 - PROCEDURA - Sugestywna_sprzedaz
+
+PARAMETR @ID_baristy = 1
+Imie	Nazwisko	Ilosc sprzedanego towaru	Ilosc sprzedanego jedzenia	% Sprzedaży jedzenia (Badanie sugestywnej sprzedaży)
+Krystian	Osiński	137	43	31,39
+
+
+PARAMETR @ID_baristy = 5
+Imie	Nazwisko	Ilosc sprzedanego towaru	Ilosc sprzedanego jedzenia	% Sprzedaży jedzenia (Badanie sugestywnej sprzedaży)
+Adrian	Nowakowski	105	33	31,43
+
+
+PARAMETR @ID_baristy = 10
+Imie	Nazwisko	Ilosc sprzedanego towaru	Ilosc sprzedanego jedzenia	% Sprzedaży jedzenia (Badanie sugestywnej sprzedaży)
+Ola	Szlapka	97	42	43,3
+
+
+PARAMETR @ID_baristy = 6
+Imie	Nazwisko	Ilosc sprzedanego towaru	Ilosc sprzedanego jedzenia	% Sprzedaży jedzenia (Badanie sugestywnej sprzedaży)
+Maciej	Świerblewski	74	12	16,22
+
+RAPORT - 5 - PROCEDURA - TOP_5
+
+PARAMETR ID_typ_menu = 1
+ilość_sum	Nazwa
+44	Americano
+32	Latte
+26	Cappuccino
+25	Flat White
+23	Cold brew
+
+
+PARAMETR ID_typ_menu = 2
+ilość_sum	Nazwa
+26	Cynamonka
+21	Bajgiel z jajkiem i boczkiem
+19	Croissant
+11	Ciastko owsiane z Nutellą
+10	Bajgiel Kozi Ser
+
+
+PARAMETR ID_typ_menu = 3
+ilość_sum	Nazwa
+6	Guatemala
+4	Blond Roast
+3	Kenya
+3	Sumatra
+2	Ethiopia
